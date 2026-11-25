@@ -33,3 +33,9 @@ footer.site{margin-top:4rem;background:var(--green);padding:1.75rem 0;color:#E3F
 footer.site a{margin-right:1rem;color:var(--mint)}
 footer.site a:focus-visible{outline-color:#fff}
 footer.site p{margin:.75rem 0 0}
+
+.callout{background:#E4F1EA;border-radius:8px;padding:1.25rem 1.5rem;margin:2.25rem 0}
+.callout h2{margin-top:0}
+.callout ul{padding-left:1.2rem;margin:.75rem 0}
+.callout li{margin:.4rem 0}
+.callout p:last-child{margin-bottom:0}

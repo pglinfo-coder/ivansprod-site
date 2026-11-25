@@ -22,6 +22,10 @@ I created a project and gave it her website as a reference. Expree searched for 
 
 The replies came in fast, and in large numbers: [X] replies in [X days]. It does what it promises.
 
+## What to expect as a beginner
+
+**Time to set up:** [X minutes]. **What you need before starting:** [for example, a website address and a few minutes]. **What may feel confusing at first:** [the step that confused you, and how you got past it].
+
 ## What didn’t go so well
 
 I set up the reply settings wrong. Before sending, I should have [what you’d do differently]. To avoid my mistake: [step 1], [step 2].
