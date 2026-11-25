@@ -1,0 +1,26 @@
+---
+import '../styles/global.css';
+const { title, description = 'Honest, hands-on reviews of AI tools for solo business owners.' } = Astro.props;
+const full = title === 'Ivan’s Prod' ? title : `${title} | Ivan’s Prod`;
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{full}</title>
+  <meta name="description" content={description}>
+  <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)}>
+</head>
+<body>
+  <header class="site"><div class="wrap">
+    <a class="brand" href="/">Ivan’s Prod</a>
+    <nav><a href="/reviews/">Reviews</a><a href="/about/">About</a></nav>
+  </div></header>
+  <main class="wrap"><slot /></main>
+  <footer class="site"><div class="wrap">
+    <a href="/affiliate-disclosure/">Affiliate disclosure</a>
+    <p>Real tests. Honest verdicts.</p>
+  </div></footer>
+</body>
+</html>

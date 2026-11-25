@@ -1,0 +1,31 @@
+:root{--ink:#16294D;--text:#243246;--muted:#5B6B82;--paper:#F6F8FB;--line:#D5DDE8;--amber:#D98E2B;--good:#1F6B4F;--bad:#9A3B2E;--serif:"Iowan Old Style","Palatino Linotype",Georgia,serif}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--text);font:1.0625rem/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--ink)}
+a:focus-visible{outline:3px solid var(--amber);outline-offset:2px}
+.wrap{max-width:46rem;margin:0 auto;padding:0 1.25rem}
+header.site{background:#fff;border-bottom:1px solid var(--line)}
+header.site .wrap{display:flex;flex-wrap:wrap;gap:.5rem 1.5rem;align-items:baseline;justify-content:space-between;padding-top:1rem;padding-bottom:1rem}
+.brand{font:700 1.35rem var(--serif);color:var(--ink);text-decoration:none}
+nav a{margin-left:1.25rem;color:var(--text);text-decoration:none}
+nav a:hover{text-decoration:underline}
+h1,h2,h3{font-family:var(--serif);color:var(--ink);line-height:1.2}
+h1{font-size:clamp(2rem,6vw,3.1rem);margin:2.5rem 0 1rem}
+h2{font-size:1.6rem;margin:2.2rem 0 .6rem}
+.lead{font-size:1.2rem}
+.btn{display:inline-block;background:var(--ink);color:#fff;padding:.7rem 1.2rem;border-radius:4px;font-weight:600;text-decoration:none}
+.btn:hover{background:#0f1c36}
+.btn:focus-visible{outline:3px solid var(--amber);outline-offset:2px}
+.verdict{display:grid;gap:1rem;margin:2rem 0}
+@media(min-width:40rem){.verdict{grid-template-columns:1fr 1fr}}
+.verdict>div{background:#fff;padding:1rem 1.25rem;border-top:4px solid var(--good)}
+.verdict>.not{border-top-color:var(--bad)}
+.verdict h2,.verdict h3{margin:0 0 .5rem;font-size:1.15rem}
+.verdict ul{margin:0;padding-left:1.2rem}
+.list{list-style:none;padding:0}
+.list li{padding:1rem 0;border-bottom:1px solid var(--line)}
+.list a{font:700 1.2rem var(--serif)}
+.list p{margin:.25rem 0 0;color:var(--muted)}
+.note{font-size:.95rem;color:var(--muted);border-left:3px solid var(--amber);padding-left:.9rem}
+footer.site{margin-top:4rem;border-top:1px solid var(--line);padding:1.5rem 0;color:var(--muted);font-size:.95rem}
+footer.site a{margin-right:1rem}
