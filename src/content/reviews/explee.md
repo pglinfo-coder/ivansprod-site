@@ -3,7 +3,7 @@ title: "Explee Review: I Tested It on My Daughter’s Website"
 problem: "Get more clients"
 summary: "I used Explee to find potential clients and send them a presentation email. Here’s what it cost, what came back, and the setting I got wrong."
 date: 2026-11-27
-draft: true
+draft: false
 affiliateUrl: "https://explee.com/?utm_source=Ivan+Lett&utm_medium=affiliate&utm_campaign=Explee&ref=ivan59"
 forYou:
   - "you’re a solo owner who wants to reach new clients without writing every email yourself"
