@@ -13,7 +13,7 @@ const when = d.date.toLocaleDateString('en-CA', { year: 'numeric', month: 'long'
 <Base title={d.title} description={d.summary}>
   <article>
     <h1>{d.title}</h1>
-    <p class="note">Problem it targets: {d.problem}. Tested {when}. I’m an affiliate for this tool. <a href="/affiliate-disclosure/">What that means</a>.</p>
+    <p class="note">Problem it targets: {d.problem}. Tested {when}.{d.affiliateUrl && <> I’m an affiliate for this tool. <a href="/affiliate-disclosure/">What that means</a>.</>}</p>
     <Content />
     <div class="verdict">
       <div><h2>This is for you if…</h2><ul>{d.forYou.map((i) => <li>{i}</li>)}</ul></div>
